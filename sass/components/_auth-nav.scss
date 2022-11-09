@@ -1,0 +1,33 @@
+.auth-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.auth-nav__item {
+    display: block;
+    align-items: center;
+}
+
+.auth-nav__link {
+    display: flex;
+    align-items: center;
+}
+
+.auth-nav__icon {
+    margin-right: 10px;
+}
+
+.auth-nav__link {
+    color: var(--primary-text-color);
+    padding: 32px 0;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-nav__link:hover,
+.auth-nav__link:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}

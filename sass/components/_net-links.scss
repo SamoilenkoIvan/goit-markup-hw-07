@@ -1,0 +1,35 @@
+.net-links__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.net-links__title {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.net-links__link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color-footer);
+    border-radius: 50%;
+    fill: var(--primary-white-color);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.net-links__link:hover,
+.net-links__link:focus {
+    background-color: var(--accent-color);
+}
