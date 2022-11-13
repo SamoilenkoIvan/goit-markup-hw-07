@@ -6,10 +6,6 @@
     cursor: pointer;
 }
 
-.filter-button:hover {
-    cursor: pointer;
-}
-
 .button:hover {
     cursor: pointer;
 }
@@ -35,11 +31,13 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        background: var(--button-color);
+    }
 }
 
-.button-send:hover {
-    background: var(--button-color);
-}
+
 
 .button {
     display: flex;
@@ -61,11 +59,13 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        fill: var(--accent-color);
+    }
 }
 
-.close-icon:hover {
-    fill: var(--accent-color);
-}
+
 
 .send-button {
     width: 200px;
@@ -87,8 +87,9 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        background: var(--button-color);
+    }
 }
 
-.send-button:hover {
-    background: var(--button-color);
-}

@@ -45,7 +45,7 @@ ul {
 .hero-button:hover {
   cursor: pointer;
 }
-.filter-button:hover {
+.filter-list__button:hover {
   cursor: pointer;
 }
 .button:hover {
@@ -326,6 +326,14 @@ a {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
+  margin-bottom: 50px;
+}
+.tasks__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
   margin-bottom: 50px;
 }
 .tasks__item {

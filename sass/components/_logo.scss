@@ -6,11 +6,15 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none;
+    // text-decoration: none;
     padding: 24px 0;
 }
 
-.logo-footer {
+.logo__second-word {
+    color: var(--logo-color);
+}
+
+.footer-logo {
     display: block;
     font-family: 'Raleway';
     font-weight: 700;
@@ -18,14 +22,11 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none;
+    // text-decoration: none;
+    margin-bottom: 20px;
 }
 
-.logo-part {
-    color: var(--logo-color);
-    text-decoration: none;
-}
 
-.logo-part-footer {
+.footer-logo__second-word {
     color: var(--primary-white-color);
 }

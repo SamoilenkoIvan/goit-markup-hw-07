@@ -8,6 +8,7 @@
 }
 
 .address__link {
+    font-style: normal;
     color: var(--primary-white-color);
     text-decoration: none;
     margin-bottom: 9px;
@@ -20,12 +21,10 @@
     margin-bottom: 9px;
 }
 
-.address__list .address__link:hover,
-.address__list .address__link:focus {
-    color: var(--accent-color);
-}
 
-.address__list .contact__link:hover,
-.address__list .contact__link:focus {
+.address__list {
+    & .address__link:hover,
+    & .address__link:focus {
     color: var(--accent-color);
+    }
 }
